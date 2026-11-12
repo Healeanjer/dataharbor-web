@@ -1,0 +1,217 @@
+{
+  "关闭预览": {
+    "zh-CN": "关闭预览",
+    "en": "Close preview",
+    "zh-hant": "關閉預覽"
+  },
+  "数据流转示意": {
+    "zh-CN": "数据流转示意",
+    "en": "Information flow diagram",
+    "zh-hant": "資料流轉示意"
+  },
+  "资料始终在企业自己的边界内流转。": {
+    "zh-CN": "资料始终在企业自己的边界内流转。",
+    "en": "Keep information flows within the boundaries you control.",
+    "zh-hant": "資料始終在企業自己的邊界內流轉。"
+  },
+  "一个底座，四类能力": {
+    "zh-CN": "一个底座，四类能力",
+    "en": "One foundation. Four areas of capability.",
+    "zh-hant": "一個底座，四類能力"
+  },
+  "按场景探索": {
+    "zh-CN": "按场景探索",
+    "en": "Explore by scenario",
+    "zh-hant": "依情境探索"
+  },
+  "独立实现 · 三语官网": {
+    "zh-CN": "独立实现 · 三语官网",
+    "en": "Independent implementation · Three languages",
+    "zh-hant": "獨立實作 · 三語官網"
+  },
+  "数据连接示意，支持拖动旋转": {
+    "zh-CN": "数据连接示意，支持拖动旋转",
+    "en": "Data sphere illustration. Drag to rotate.",
+    "zh-hant": "資料連結示意，可拖曳旋轉"
+  },
+  "更多语言，敬请期待": {
+    "zh-CN": "更多语言，敬请期待",
+    "en": "More languages coming soon",
+    "zh-hant": "更多語言，敬請期待"
+  },
+  "选择语言": {
+    "zh-CN": "选择语言",
+    "en": "Select language",
+    "zh-hant": "選擇語言"
+  },
+  "当前语言": {
+    "zh-CN": "当前语言",
+    "en": "Current language",
+    "zh-hant": "目前語言"
+  },
+  "数据与业务，在这里相遇": {
+    "zh-CN": "数据与业务，在这里相遇",
+    "en": "Where data meets everyday work",
+    "zh-hant": "資料與業務，在這裡相遇"
+  },
+  "往左浏览": {
+    "zh-CN": "往左浏览",
+    "en": "Browse previous",
+    "zh-hant": "向左瀏覽"
+  },
+  "往右浏览": {
+    "zh-CN": "往右浏览",
+    "en": "Browse next",
+    "zh-hant": "向右瀏覽"
+  },
+  "准备好下一步了吗？": {
+    "zh-CN": "准备好下一步了吗？",
+    "en": "Ready to take the next step?",
+    "zh-hant": "準備好下一步了嗎？"
+  },
+  "从资料接入、业务协同，到安全流转。": {
+    "zh-CN": "从资料接入、业务协同，到安全流转。",
+    "en": "From information intake and collaboration to secure sharing.",
+    "zh-hant": "從資料接入、業務協同，到安全流轉。"
+  },
+  "当前语言的页面不存在。": {
+    "zh-CN": "当前语言的页面不存在。",
+    "en": "This page is not available at this address.",
+    "zh-hant": "目前語言的頁面不存在。"
+  },
+  "企业文档": {
+    "zh-CN": "企业文档",
+    "en": "Enterprise Documents",
+    "zh-hant": "企業文件"
+  },
+  "业务如何运转": {
+    "zh-CN": "业务如何运转",
+    "en": "How work flows",
+    "zh-hant": "業務如何運轉"
+  },
+  "一份资料，贯穿业务全过程": {
+    "zh-CN": "一份资料，贯穿业务全过程",
+    "en": "One information flow. From intake to archive.",
+    "zh-hant": "一份資料，貫穿業務全過程"
+  },
+  "协同使用": {
+    "zh-CN": "协同使用",
+    "en": "Collaborate",
+    "zh-hant": "協同使用"
+  },
+  "安全外发": {
+    "zh-CN": "安全外发",
+    "en": "Share securely",
+    "zh-hant": "安全外發"
+  },
+  "归档追溯": {
+    "zh-CN": "归档追溯",
+    "en": "Archive and trace",
+    "zh-hant": "歸檔追溯"
+  },
+  "文件共享、邮件资料和业务附件统一归集。": {
+    "zh-CN": "文件共享、邮件资料和业务附件统一归集。",
+    "en": "Bring shared files, email materials and business attachments together.",
+    "zh-hant": "檔案共享、郵件資料與業務附件統一歸集。"
+  },
+  "围绕日常任务处理资料，沿用统一的访问权限。": {
+    "zh-CN": "围绕日常任务处理资料，沿用统一的访问权限。",
+    "en": "Work with information in daily tasks under shared access rules.",
+    "zh-hant": "圍繞日常任務處理資料，沿用統一的存取權限。"
+  },
+  "按外发渠道与内容规则设计申请、审批和处理记录。": {
+    "zh-CN": "按外发渠道与内容规则设计申请、审批和处理记录。",
+    "en": "Design requests, approvals and records around outbound channels and content policies.",
+    "zh-hant": "依外發管道與內容規則設計申請、審批與處理紀錄。"
+  },
+  "归档资料可查找、可调阅，并保留使用与流转记录。": {
+    "zh-CN": "归档资料可查找、可调阅，并保留使用与流转记录。",
+    "en": "Find and access archived information, with records of its use and movement.",
+    "zh-hant": "歸檔資料可查找、可調閱，並保留使用與流轉紀錄。"
+  },
+  "三个核心优势": {
+    "zh-CN": "三个核心优势",
+    "en": "Three core strengths",
+    "zh-hant": "三個核心優勢"
+  },
+  "部署自主，管理有据": {
+    "zh-CN": "部署自主，管理有据",
+    "en": "Control your environment. Keep management accountable.",
+    "zh-hant": "部署自主，管理有據"
+  },
+  "统一数据与权限": {
+    "zh-CN": "统一数据与权限",
+    "en": "Shared data and access rules",
+    "zh-hant": "統一資料與權限"
+  },
+  "全流程留痕": {
+    "zh-CN": "全流程留痕",
+    "en": "Traceable information flows",
+    "zh-hant": "全流程留痕"
+  },
+  "资料集中组织，业务模块沿用统一的访问管理规则。": {
+    "zh-CN": "资料集中组织，业务模块沿用统一的访问管理规则。",
+    "en": "Organize information centrally, with shared access rules across business modules.",
+    "zh-hant": "資料集中組織，業務模組沿用統一的存取管理規則。"
+  },
+  "从日常使用到外发和归档，连贯记录资料的处理过程。": {
+    "zh-CN": "从日常使用到外发和归档，连贯记录资料的处理过程。",
+    "en": "Keep connected records as information is used, shared and archived.",
+    "zh-hant": "從日常使用到外發與歸檔，連貫記錄資料的處理過程。"
+  },
+  "接入与保管企业资料。": {
+    "zh-CN": "接入与保管企业资料。",
+    "en": "Connect and retain enterprise information.",
+    "zh-hant": "接入與保管企業資料。"
+  },
+  "支撑日常任务与团队协作。": {
+    "zh-CN": "支撑日常任务与团队协作。",
+    "en": "Support daily work and team collaboration.",
+    "zh-hant": "支援日常任務與團隊協作。"
+  },
+  "沉淀经验，便于查找和复用。": {
+    "zh-CN": "沉淀经验，便于查找和复用。",
+    "en": "Retain knowledge for discovery and reuse.",
+    "zh-hant": "沉澱經驗，便於查找與複用。"
+  },
+  "把规则延伸到资料使用与流转。": {
+    "zh-CN": "把规则延伸到资料使用与流转。",
+    "en": "Apply policies throughout information use and sharing.",
+    "zh-hant": "將規則延伸到資料使用與流轉。"
+  },
+  "按企业条件规划部署与投入": {
+    "zh-CN": "按企业条件规划部署与投入",
+    "en": "Plan deployment and investment around your needs",
+    "zh-hant": "依企業條件規劃部署與投入"
+  },
+  "正式报价按配置、授权范围与交付要求评估。": {
+    "zh-CN": "正式报价按配置、授权范围与交付要求评估。",
+    "en": "Formal quotes depend on configuration, licensing scope and delivery requirements.",
+    "zh-hant": "正式報價依配置、授權範圍與交付要求評估。"
+  },
+  "选择环节，查看资料如何流转。": {
+    "zh-CN": "选择环节，查看资料如何流转。",
+    "en": "Choose a stage to see how information flows.",
+    "zh-hant": "選擇環節，查看資料如何流轉。"
+  },
+  "同一份资料": {
+    "zh-CN": "同一份资料",
+    "en": "One connected record",
+    "zh-hant": "同一份資料"
+  },
+  "资料流转概念示意": {
+    "zh-CN": "资料流转概念示意",
+    "en": "Information flow concept",
+    "zh-hant": "資料流轉概念示意"
+  },
+  "旧版首页": {
+    "zh-CN": "旧版首页",
+    "en": "Previous homepage",
+    "zh-hant": "舊版首頁"
+  },
+  "返回平台简介": {
+    "zh-CN": "返回平台简介",
+    "en": "Go to platform overview",
+    "zh-hant": "返回平台簡介"
+  }
+}

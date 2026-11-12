@@ -1,0 +1,25 @@
+{
+  "name": "dataharbor-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independently implemented multilingual enterprise data platform website",
+  "scripts": {
+    "dev": "next dev --port 4174",
+    "build": "next build --webpack",
+    "preview": "node scripts/preview.mjs",
+    "check": "tsc --noEmit",
+    "verify": "python3 scripts/verify.py",
+    "licenses": "node scripts/dependency-notices.mjs"
+  },
+  "dependencies": {
+    "next": "16.2.6",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.33",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  }
+}
