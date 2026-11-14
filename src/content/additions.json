@@ -213,5 +213,90 @@
     "zh-CN": "返回平台简介",
     "en": "Go to platform overview",
     "zh-hant": "返回平台簡介"
+  },
+  "客户与合作伙伴": {
+    "zh-CN": "客户与合作伙伴",
+    "en": "Customers & Partners",
+    "zh-hant": "客戶與合作夥伴"
+  },
+  "占位演示": {
+    "zh-CN": "占位演示",
+    "en": "Placeholder preview",
+    "zh-hant": "佔位演示"
+  },
+  "示例标识，仅展示排版与动效，正式名单确认后替换。": {
+    "zh-CN": "示例标识，仅展示排版与动效，正式名单确认后替换。",
+    "en": "Sample identities for layout and motion only. Replace after the actual list is confirmed.",
+    "zh-hant": "示例標識，僅展示排版與動效，正式名單確認後替換。"
+  },
+  "暂停滚动": {
+    "zh-CN": "暂停滚动",
+    "en": "Pause scrolling",
+    "zh-hant": "暫停捲動"
+  },
+  "继续滚动": {
+    "zh-CN": "继续滚动",
+    "en": "Resume scrolling",
+    "zh-hant": "繼續捲動"
+  },
+  "示例集团": {
+    "zh-CN": "示例集团",
+    "en": "Sample Group",
+    "zh-hant": "示例集團"
+  },
+  "示例科技": {
+    "zh-CN": "示例科技",
+    "en": "Sample Technology",
+    "zh-hant": "示例科技"
+  },
+  "示例制造": {
+    "zh-CN": "示例制造",
+    "en": "Sample Industries",
+    "zh-hant": "示例製造"
+  },
+  "示例能源": {
+    "zh-CN": "示例能源",
+    "en": "Sample Energy",
+    "zh-hant": "示例能源"
+  },
+  "示例物流": {
+    "zh-CN": "示例物流",
+    "en": "Sample Logistics",
+    "zh-hant": "示例物流"
+  },
+  "示例服务": {
+    "zh-CN": "示例服务",
+    "en": "Sample Services",
+    "zh-hant": "示例服務"
+  },
+  "示例建设": {
+    "zh-CN": "示例建设",
+    "en": "Sample Engineering",
+    "zh-hant": "示例建設"
+  },
+  "示例研究院": {
+    "zh-CN": "示例研究院",
+    "en": "Sample Research",
+    "zh-hant": "示例研究院"
+  },
+  "示例医疗": {
+    "zh-CN": "示例医疗",
+    "en": "Sample Healthcare",
+    "zh-hant": "示例醫療"
+  },
+  "示例教育": {
+    "zh-CN": "示例教育",
+    "en": "Sample Education",
+    "zh-hant": "示例教育"
+  },
+  "示例通信": {
+    "zh-CN": "示例通信",
+    "en": "Sample Networks",
+    "zh-hant": "示例通信"
+  },
+  "示例商业": {
+    "zh-CN": "示例商业",
+    "en": "Sample Commerce",
+    "zh-hant": "示例商業"
   }
 }

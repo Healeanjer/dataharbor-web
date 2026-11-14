@@ -289,7 +289,7 @@ export function ModuleParallax({
           </div>
           <p>{description}</p>
         </div>
-        <div className="mp-wall">
+        <div className={`mp-wall${enhanced ? ' container' : ''}`}>
           {[0, 1, 2].map((row) => (
             <div
               className="mp-row"

@@ -6,6 +6,7 @@ import { Accordion, Count } from '@/components/Interactions';
 import { DataSphere } from '@/components/DataSphere';
 import { Icon } from '@/components/Icon';
 import { Architecture } from '@/components/Diagrams';
+import { PartnerLogos } from '@/components/PartnerLogos';
 import { WorkflowJourney } from '@/components/WorkflowJourney';
 
 export function Home({ locale, t }: { locale: Locale; t: Translator }) {
@@ -242,6 +243,7 @@ export function Home({ locale, t }: { locale: Locale; t: Translator }) {
           ]}
         />
       </Section>
+      <PartnerLogos />
       <section className="closing-section">
         <div className="container">
           <div className="closing-card">
