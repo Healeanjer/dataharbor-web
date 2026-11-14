@@ -8,6 +8,47 @@ import dimensions from '@/content/image-sizes.json';
 
 export function MotionSystem() {
   useEffect(() => {
+    // Decode nearby images ahead of scrolling, with at most two active jobs.
+    let cancelled = false;
+    let active = 0;
+    const queue: HTMLImageElement[] = [];
+    const pump = () => {
+      while (!cancelled && active < 2 && queue.length) {
+        const image = queue.shift()!;
+        active++;
+        image.loading = 'eager';
+        image.decoding = 'async';
+        image
+          .decode()
+          .catch(() => undefined)
+          .finally(() => {
+            image.dataset.prepared = 'true';
+            active--;
+            pump();
+          });
+      }
+    };
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (!entry.isIntersecting) continue;
+          observer.unobserve(entry.target);
+          queue.push(entry.target as HTMLImageElement);
+        }
+        pump();
+      },
+      { rootMargin: '1000px 0px', threshold: 0 }
+    );
+    document
+      .querySelectorAll<HTMLImageElement>('img[loading="lazy"]')
+      .forEach((image) => observer.observe(image));
+    return () => {
+      cancelled = true;
+      queue.length = 0;
+      observer.disconnect();
+    };
+  }, []);
+  useEffect(() => {
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     const observer = new IntersectionObserver(
       (entries) =>

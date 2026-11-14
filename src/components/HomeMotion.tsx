@@ -112,16 +112,22 @@ export function NotebookHero({ children }: { children: ReactNode }) {
     if (!section || !text || !laptop) return;
     const reduced = matchMedia('(prefers-reduced-motion: reduce)');
     let frame = 0;
+    let textBottom = 0;
+    function measure() {
+      textBottom = text!.offsetTop + text!.offsetHeight;
+      update();
+    }
     function paint() {
       frame = 0;
       const width = document.documentElement.clientWidth,
         height = innerHeight;
       const box = section!.getBoundingClientRect();
+      if (box.bottom < 0 || box.top > height) return;
       const p = clamp(-box.top / Math.max(1, box.height - height));
       const center = smooth(p / 0.18),
         unfold = smooth((p - 0.12) / 0.73),
         mobile = width <= 900;
-      const mobileY = Math.max(text!.offsetTop + text!.offsetHeight + 24, height * 0.43);
+      const mobileY = Math.max(textBottom + 24, height * 0.43);
       const startScale = mobile
         ? Math.min((width - 32) / 1000, Math.max(170, height - mobileY - 65) / 1045)
         : Math.min((width * 0.43) / 1000, (height - 155) / 1045, 0.62);
@@ -156,18 +162,19 @@ export function NotebookHero({ children }: { children: ReactNode }) {
     function update() {
       if (!frame) frame = requestAnimationFrame(paint);
     }
-    const observer = new ResizeObserver(update);
+    const observer = new ResizeObserver(measure);
     observer.observe(text);
     observer.observe(section);
+    measure();
     paint();
     addEventListener('scroll', update, { passive: true });
-    addEventListener('resize', update);
+    addEventListener('resize', measure);
     reduced.addEventListener('change', update);
     return () => {
       cancelAnimationFrame(frame);
       observer.disconnect();
       removeEventListener('scroll', update);
-      removeEventListener('resize', update);
+      removeEventListener('resize', measure);
       reduced.removeEventListener('change', update);
     };
   }, []);
@@ -255,6 +262,7 @@ export function ModuleParallax({
       frame = 0;
       if (!media.matches) return;
       const box = el!.getBoundingClientRect();
+      if (box.bottom < 0 || box.top > innerHeight) return;
       const progress = clamp((76 - box.top) / Math.max(1, box.height - (innerHeight - 76)));
       rows.current.forEach((row, i) => {
         if (!row || row.contains(document.activeElement)) return;

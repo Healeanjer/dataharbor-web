@@ -6,12 +6,14 @@ import { Accordion, Count } from '@/components/Interactions';
 import { DataSphere } from '@/components/DataSphere';
 import { Icon } from '@/components/Icon';
 import { Architecture } from '@/components/Diagrams';
+import { FirstScreenLoading } from '@/components/FirstScreenLoading';
 import { PartnerLogos } from '@/components/PartnerLogos';
 import { WorkflowJourney } from '@/components/WorkflowJourney';
 
 export function Home({ locale, t }: { locale: Locale; t: Translator }) {
   return (
     <div className="home-preview">
+      <FirstScreenLoading />
       <NotebookHero>
         <div className="hero-copy">
           <p className="hero-badge">
