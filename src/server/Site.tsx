@@ -22,6 +22,7 @@ import {
   SolutionDirectory,
   Technology,
 } from './Templates';
+import '@/app/fonts.css';
 import '@/app/site.css';
 
 export type PageParams = { params: Promise<{ slug?: string[] }> };

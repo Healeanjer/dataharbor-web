@@ -235,7 +235,7 @@ export function Navigation() {
                 >
                   <span>
                     <span className="flag" aria-hidden>
-                      {l.flag}
+                      <img src={sitePath(l.flag)} width="24" height="16" alt="" />
                     </span>
                     <span lang={l.code === 'zh-hant' ? 'zh-Hant' : l.code}>{l.name}</span>
                   </span>
@@ -252,7 +252,7 @@ export function Navigation() {
                 >
                   <span>
                     <span className="flag" aria-hidden>
-                      {l.flag}
+                      <img src={sitePath(l.flag)} width="24" height="16" alt="" />
                     </span>
                     {l.name}
                   </span>

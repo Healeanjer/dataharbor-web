@@ -6,9 +6,9 @@ export const locales = ['zh-CN', 'en', 'zh-hant'] as const;
 export type Locale = (typeof locales)[number];
 export type Translator = (text: string) => string;
 export const languageOptions = [
-  { code: 'zh-CN' as Locale, name: '简体中文', flag: '🇨🇳' },
-  { code: 'en' as Locale, name: 'English', flag: '🇬🇧' },
-  { code: 'zh-hant' as Locale, name: '繁體中文', flag: '🇭🇰' },
+  { code: 'zh-CN' as Locale, name: '简体中文', flag: '/flags/cn.svg' },
+  { code: 'en' as Locale, name: 'English', flag: '/flags/gb.svg' },
+  { code: 'zh-hant' as Locale, name: '繁體中文', flag: '/flags/hk.svg' },
 ];
 export function dictionary(locale: Locale): Record<string, string> {
   const existing = locale === 'en' ? english : locale === 'zh-hant' ? traditional : {};

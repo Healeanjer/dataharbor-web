@@ -110,3 +110,10 @@ npm run preview
 推送 `main` 后，`.github/workflows/pages.yml` 自动构建三语静态页面、检查全部链接与原始截图，再发布到 Pages。`NEXT_PUBLIC_BASE_PATH` 与网站域名由 Pages 配置自动提供；本地默认保持为空，继续使用 4174 端口。
 
 项目路径构建可本地验证：`NEXT_PUBLIC_BASE_PATH=/dataharbor-web npm run build`，再用相同变量运行 `npm run verify`。构建与验证结果不包含访问令牌。
+
+## 跨系统字体与截图加载优化（2026-11-14）
+
+- 主体文字使用随站托管的 Noto Sans SC 常规/粗体 WOFF2 字形子集，总计约 300 KB；英文与中文字形拆分加载，不请求外部字体服务。字体许可及来源保留在 `public/fonts/`。修改文案增加新字符后，使用 `scripts/subset-fonts.py` 更新字体子集。
+- 语言选项使用本地 SVG 图标，避免 Windows 将 Emoji 国旗显示为字母。
+- 16 张 PNG 原图及哈希不变，点击放大仍访问原图；页面默认使用全尺寸无损 WebP（总计从 3,893,032 降至 2,110,286 字节），小屏/卡片使用 720px WebP。全尺寸 WebP 已逐像素比对原 PNG。
+- 首屏工作台优先加载；其他截图延迟加载、异步解码。转换脚本为 `node scripts/optimize-images.cjs`。

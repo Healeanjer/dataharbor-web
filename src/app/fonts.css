@@ -1,0 +1,33 @@
+/* Noto Sans SC, SIL OFL 1.1. Self-hosted subsets of current site copy. */
+@font-face {
+  font-family: 'DataHarbor Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../public/fonts/site-latin-400.woff2') format('woff2');
+  unicode-range: U+0000-2FFF;
+}
+@font-face {
+  font-family: 'DataHarbor Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../public/fonts/site-latin-700.woff2') format('woff2');
+  unicode-range: U+0000-2FFF;
+}
+@font-face {
+  font-family: 'DataHarbor Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../public/fonts/site-cjk-400.woff2') format('woff2');
+  unicode-range: U+3000-FFFF;
+}
+@font-face {
+  font-family: 'DataHarbor Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../../public/fonts/site-cjk-700.woff2') format('woff2');
+  unicode-range: U+3000-FFFF;
+}

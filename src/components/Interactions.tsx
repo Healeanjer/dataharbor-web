@@ -67,11 +67,17 @@ export function Screenshot({
           onClick={() => setOpen(true)}
         >
           <img
-            src={sitePath(`/media/screens/${name}.png`)}
+            src={sitePath(`/media/screens/${name}.webp`)}
+            srcSet={`${sitePath(`/media/screens/${name}-720.webp`)} 720w, ${sitePath(
+              `/media/screens/${name}.webp`
+            )} ${size[0]}w`}
+            sizes={compact ? '(max-width: 700px) 92vw, 48vw' : '(max-width: 700px) 94vw, 70vw'}
+            decoding="async"
             alt={alt}
             width={size[0]}
             height={size[1]}
-            loading={compact ? 'lazy' : 'eager'}
+            loading={name === 'workspace' && !compact ? 'eager' : 'lazy'}
+            fetchPriority={name === 'workspace' && !compact ? 'high' : 'auto'}
           />
           <span className="image-expand" aria-hidden>
             <Icon name="out" size={18} />

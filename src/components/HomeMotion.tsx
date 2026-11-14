@@ -301,7 +301,8 @@ export function ModuleParallax({
               {items.slice(row * 5, row * 5 + 5).map((item) => (
                 <a className="mp-card" href={item.url} key={item.id}>
                   <img
-                    src={sitePath(`/media/screens/${item.image}.png`)}
+                    src={sitePath(`/media/screens/${item.image}-720.webp`)}
+                    decoding="async"
                     alt={item.title}
                     width={1440}
                     height={930}
